@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		form{
+			border: 2px solid purple;
+			width: 35%;
+			padding: 12px;
+			margin: auto;
+		}
+
+		label{
+
+			color: ;
+			display: block;
+		}
+
+	.patient-input{
+		width: 100%;
+		padding:2px;
+		/*fit within the main container*/
+		box-sizing: border-box;
+		margin-bottom: 12px;
+		height: 50px;
+
+		button{
+			width: 50%;
+			padding: 12px;
+			margin-top: 15px
+		}
+
+
+gender{
+	align-content: horizontal;
+}
+
+input type{
+	align-content: horizontal;
+
+}
+
+@media screen and (max-width: 576x){
+	form{width: 90%}
+}
+
+
+
+	}
+
+
+	</style>
+</head>
+<body>
+
+<form>
+	<label>patients name</label>
+	<input class="patient-input" type="text" placeholder="Names" required="">
+
+	<label>Weight</label>
+	<input class="patient-input" type="number" placeholder="Weight in kgs" required="" min="1" max="200">
+     
+     <label>Height</label>
+     <input class="patient-input" type="number" placeholder="weight in cm required" min="20" max="210" >
+
+     <label>Email contact</label>
+     <input class="patient-input" type="email" placeholder="Email" >
+
+     <label>password</label>
+     <input class="patient-input" class="patient-input" type="password" placeholder="Password" >
+
+     <label>DOB</label>
+     <input class="patient-input" type="date" placeholder="Date of birth " min="1978-01-01" max="2021-02-22">
+
+     <label>Description</label>
+     <textarea class="patient-input" placeholder="Describe the patient"></textarea>
+
+     <label>County</label>
+     <select class="patient-input">
+     	<option>Nairobi</option>
+     	<option selected>Nakuru</option>
+     	<option>Mombasa</option>
+     	<option>Eldoret</option>
+     	<option>Marsabit</option>
+     </select>
+
+     <label>Gender</label>
+     <input class="patient-input" type="radio" name="Gender">Female
+      <input class="patient-input" type="radio" name="Gender" checked="">Male
+      <input class="patient-input" type="radio" name="Gender class="patient-input"">Other
+
+      <label>Meals</label>
+      <input type class="patient-input"="checkbox" name="" checked>Ugali
+      <input type class="patient-input"="checkbox" name="">Rice
+      <input type class="patient-input"="checkbox" name="">Beans
+      <input type class="patient-input"="checkbox" name="">Chapati
+
+
+
+      <!-- <input type class="patient-input"="range" name=""> -->
+
+      <button class="patient-input">Register 
+      Patient</button>
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
